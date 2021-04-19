@@ -193,11 +193,11 @@ var UIController = (function () {
 			//create html string with some placeholder	
 			if (type === 'inc') {
 				element = DomStrings.incomeContainer;
-				html = '<div class="item clearfix" id="inc-%id%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_delete"><button class="item_delete-btn"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+				html = '<div class="item clearfix" id="inc-%id%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_delete"><button class="item_delete-btn"><i class="far fa-times-circle"></i></button></div></div></div>'
 
 			} else if(type === 'exp') {	
 				element = DomStrings.expensesContainer;					
-				html ='<div class="item clearfix" id="exp-%id%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_percentage">21%</div><div class="item_delete"><button class="item_delete-btn"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+				html ='<div class="item clearfix" id="exp-%id%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_percentage">21%</div><div class="item_delete"><button class="item_delete-btn"><i class="far fa-times-circle"></i></button></div></div></div>'
 			}
 			
 			//replace the placeholder text with the actual data 
